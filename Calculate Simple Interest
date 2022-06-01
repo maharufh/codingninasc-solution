@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    //Write your code here
+    int p,t;
+    float r;
+  
+    cin>>p>>r>>t;
+    
+    int SI = (p*r*t)/100;
+    cout<<SI<<endl;
+    
+
+    return 0;
+}
